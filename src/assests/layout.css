@@ -1,0 +1,14 @@
+body{
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    --firstColor: red;
+    --SecondColor: red;
+    --ThirdColor: red;
+    --black: #343a40;
+    --white: white;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --success: #28a745;
+    
+    margin: 0px ;
+    background-color: whitesmoke;
+}

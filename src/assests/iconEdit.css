@@ -1,0 +1,50 @@
+i[class^="fi-brands-"]:before,
+i[class*=" fi-brands-"]:before,
+span[class^="fi-brands-"]:before,
+span[class*="fi-brands-"]:before {
+    font-family: uicons-brands !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*Modify*/
+    font-size: 20px;
+}
+
+i[class^="fi-br-"]:before,
+i[class*=" fi-br-"]:before,
+span[class^="fi-br-"]:before,
+span[class*="fi-br-"]:before {
+    font-family: uicons-bold-rounded !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*Modify*/
+    font-size: 25px;
+    background-color: var(--black);
+    padding: 15px;
+    color: var(--white);
+    border-radius: 5px;
+}
+i[class^="fi-rr-"]:before,
+i[class*=" fi-rr-"]:before,
+span[class^="fi-rr-"]:before,
+span[class*="fi-rr-"]:before {
+    font-family: uicons-regular-rounded !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*Modify*/
+    font-size: 45px;
+}
