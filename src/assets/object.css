@@ -1,0 +1,63 @@
+cardContainer{
+    display: flex;
+    gap: 25px;
+    margin: 15px auto;
+    justify-content: center;
+}
+
+card{
+    display: flex;
+    height: 635.188px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    width: 500px;
+    border-radius: 5px;
+    margin: 80px 0px ;
+}
+.cardContent{
+    color: #8d8d8d;
+    line-height: 2rem;
+}
+.cardContainer{
+    width: 70%;
+
+    margin: auto;
+}
+.cardCredit{
+    margin: 20px 5px;
+}
+
+.cardCredit div{
+    align-items: center;
+}
+.listItem{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 800;
+    margin: 15px;
+}
+/**/
+.rowWrapper::-webkit-scrollbar {
+    height: 0px;
+}
+.rowWrapper{
+    display: flex;
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    border: 5px solid blue;
+    overflow-y: hidden;
+    overscroll-behavior-inline:contain ;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    width: 100%;
+}
+img{
+    height: 500px;
+}

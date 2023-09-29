@@ -1,6 +1,6 @@
-import "../assests/nav.css";
-import "../assests/iconEdit.css";
-import logo from "../assests/logo/logo.png";
+import "../assets/nav.css";
+import "../assets/iconEdit.css";
+import logo from "../assets/logo/logo.png";
 import { useState } from "react";
 
 export default function NavigationBar() {

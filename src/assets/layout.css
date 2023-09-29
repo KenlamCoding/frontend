@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Goudy Bookletter 1911", sans-serif;
     --firstColor: #f5614d !important;
     --black: #222222;
@@ -6,6 +6,6 @@ body{
     --danger: #dc3545;
     --warning: #ffc107;
     --success: #28a745;
-    margin: 0px ;
+    margin: 0px;
     background-color: whitesmoke;
 }
