@@ -45,8 +45,6 @@ export default function ScrollContainer() {
         if (!ourRef.current) return
         document.body.style.cursor = "default"
     }
-    
-
     return (<>
     
       <div ref = {ourRef}
@@ -55,10 +53,6 @@ export default function ScrollContainer() {
        onMouseMove = {handleDrag}
       >
         <div className = "rowWrapper" >
-              <img src={img} />
-              <img src={img} />
-              <img src={img} />
-              <img src={img} />
               <img src={img} />
               <img src={img} />
               <img src={img} />
